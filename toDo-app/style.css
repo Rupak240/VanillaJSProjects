@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+h1 {
+  color: #b383e2;
+  font-size: 10rem;
+  text-align: center;
+  opacity: 0.5;
+  margin: 2rem;
+
+  background-color: #7f53ac;
+  background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+form {
+  max-width: 100%;
+  width: 400px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+  padding: 1rem 1.3rem;
+  display: block;
+  width: 100%;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+}
+
+input:focus {
+    color: #647dee;
+}
+
+.input::placeholder {
+  color: #b5b5b5;
+}
+
+.todos {
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.todos li {
+  border-top: 1px solid #e5e5e5;
+  font-size: 1.5rem;
+  padding: 0.8rem;
+  cursor: pointer;
+  color: #647dee;
+}
+
+.todos li.completed {
+  color: #b5b5b5;
+  text-decoration: line-through;
+}
+
+.caption {
+  padding: 3rem 0;
+  text-align: center;
+  font-weight: 600;
+}
+
+small {
+  background-color: #7f53ac;
+  background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
