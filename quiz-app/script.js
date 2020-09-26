@@ -45,7 +45,6 @@ const quiz = document.getElementById("quiz");
 
 let currentQuiz = 0;
 let score = 0;
-
 const loadQuiz = () => {
   deselecteAnswers();
 
@@ -62,8 +61,6 @@ const getSelected = () => {
   let answer = undefined;
 
   answerEls.forEach((answerEl) => {
-    // console.log(answer.checked)
-
     if (answerEl.checked) {
       answer = answerEl.id;
     }
@@ -79,8 +76,6 @@ const deselecteAnswers = () => {
 submitBtn.addEventListener("click", () => {
   const answer = getSelected();
 
-  //   console.log(answer);
-
   if (answer) {
     if (answer === quizData[currentQuiz].correct) {
       score++;
@@ -92,7 +87,10 @@ submitBtn.addEventListener("click", () => {
       loadQuiz();
     } else {
       quiz.classList.add("result");
-      quiz.innerHTML = `<h2>You answered correctly at ${score}/${quizData.length} questions.</h2> <button class="load" onclick="location.reload()">Reload</button>`;
+      quiz.innerHTML = `
+                        <h2>You answered correctly at ${score}/${quizData.length} questions.</h2> 
+                        <button class="load" onclick="location.reload()">Reload</button>
+      `;
     }
   }
 });

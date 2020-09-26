@@ -74,15 +74,20 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .result h2 {
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 .load {
-  width: 30%;
+  width: 25%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  padding: 1rem;
+  padding: 0.5rem 0;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
 }
