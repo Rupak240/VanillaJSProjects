@@ -131,6 +131,8 @@ main {
   background-color: #009ffd;
   padding: 2rem;
   position: absolute;
+  max-height: 100%;
+  overflow: auto;
   right: 0;
   left: 0;
   bottom: 0;
