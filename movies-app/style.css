@@ -1,12 +1,147 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%) no-repeat;
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: #2a2a72;
+  padding: 1rem;
+}
+
+.header-container {
+  width: 100%;
+  padding: 0 2.6rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-container h2 {
+  font-family: 'Bree Serif', serif;
+  margin: 0;
+  font-size: 3rem;
+  padding-left: 2rem;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #7a87c9 0%, #C850C0 46%, #FFCC70 100%);
+      background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  margin-right: 1.5rem;
+  width: 20%;
+}
+
+.search {
+  width: 100%;
+  padding: .5rem;
+  border-radius: 40px;
+  background-color: transparent;
+  border: 2px solid #FFCC70;
+}
+
+.search::placeholder {
+  color: #3d3dc2;
+  font-family: inherit;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.search:focus {
+  outline: none;
+  background-color: #2a2a72;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie {
+  background-color: #373b69;
+  border-radius: 3px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: .3rem 1rem 2rem 1rem;
+  overflow: hidden;
+  position: relative;
+  /* height: 400px; */
+}
+
+
+.movie img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.movie-info {
+  color: #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem 1rem;
+  letter-spacing: 1px;
+}
+
+.movie-info h3 {
+  margin: 0;
+}
+
+.movie-info span {
+  background-color: #2a2a72;
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.movie-info span.green {
+  color: #066406;
+}
+
+.movie-info span.orange {
+  color: orange;
+}
+
+.movie-info span.red {
+  color: #e62222;
+}
+
+
+.overview {
+  background-color: #009ffd;
+  padding: 2rem;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  transform: translateY(100%);
+  transition: transform .3s ease-in;
+}
+
+.overview h4 {
+  margin: 0 0 1rem 0;
+}
+
+.movie:hover .overview {
+  transform: translateY(0);
 }
