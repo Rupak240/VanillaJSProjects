@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
 
 * {
   box-sizing: border-box;
@@ -27,13 +27,18 @@ header {
 }
 
 .header-container h2 {
-  font-family: 'Bree Serif', serif;
+  font-family: "Bree Serif", serif;
   margin: 0;
   font-size: 3rem;
   padding-left: 2rem;
-  background-color: #4158D0;
-  background-image: linear-gradient(43deg, #7a87c9 0%, #C850C0 46%, #FFCC70 100%);
-      background-size: 100%;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #7a87c9 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  background-size: 100%;
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -50,16 +55,16 @@ form {
 
 .search {
   width: 100%;
-  padding: .5rem;
+  padding: 0.5rem;
   border-radius: 40px;
   background-color: transparent;
-  border: 2px solid #FFCC70;
+  border: 2px solid #ffcc70;
 }
 
 .search::placeholder {
   color: #3d3dc2;
   font-family: inherit;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   font-size: 1rem;
   color: #fff;
 }
@@ -82,12 +87,11 @@ main {
   border-radius: 3px;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
   width: 300px;
-  margin: .3rem 1rem 2rem 1rem;
+  margin: 0.3rem 1rem 2rem 1rem;
   overflow: hidden;
   position: relative;
   /* height: 400px; */
 }
-
 
 .movie img {
   width: 100%;
@@ -126,7 +130,6 @@ main {
   color: #e62222;
 }
 
-
 .overview {
   background-color: #009ffd;
   padding: 2rem;
@@ -137,7 +140,7 @@ main {
   left: 0;
   bottom: 0;
   transform: translateY(100%);
-  transition: transform .3s ease-in;
+  transition: transform 0.3s ease-in;
 }
 
 .overview h4 {
