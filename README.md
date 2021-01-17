@@ -1,6 +1,6 @@
 # VanillaJS Projects
 
-You can find the all the projects [here](https://vanillajsprojectsrupakdey.netlify.app/).
+Find the all the projects [here](https://vanillajsprojectsrupakdey.netlify.app/).
 
 1. Countdown Timer - [Live](https://vanillajsprojectsrupakdey.netlify.app/countdown-timer/index.html)
 
@@ -15,3 +15,13 @@ You can find the all the projects [here](https://vanillajsprojectsrupakdey.netli
 6. GitHub Profiles App - [Live](https://vanillajsprojectsrupakdey.netlify.app/githubprofile-app/)
 
 7. Weather App - [Live](https://vanillajsprojectsrupakdey.netlify.app/weather-app/index.html)
+
+8. Breakout Game - [Live](https://vanillajsprojectsrupakdey.netlify.app/breakout-game/index.html)
+
+9. Lyrics Search App - [Live](https://vanillajsprojectsrupakdey.netlify.app/lyrics-search-app/index.html)
+
+10. Memory Cards - [Live](https://vanillajsprojectsrupakdey.netlify.app/memory-cards/index.html)
+
+11. Shopping Cart - [Live](https://vanillajsprojectsrupakdey.netlify.app/shopping-cart/index.html)
+
+12. Music Player - [Live](https://vanillajsprojectsrupakdey.netlify.app/music-player/index.html)
