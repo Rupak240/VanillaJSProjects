@@ -25,3 +25,7 @@ Find the all the projects [here](https://vanillajsprojectsrupakdey.netlify.app/)
 11. Shopping Cart - [Live](https://vanillajsprojectsrupakdey.netlify.app/shopping-cart/index.html)
 
 12. Music Player - [Live](https://vanillajsprojectsrupakdey.netlify.app/music-player/index.html)
+
+13. Background Generator - [Live](https://vanillajsprojectsrupakdey.netlify.app/backgroud-generator/index.html)
+
+12. Responsive Login & Registration Form - [Live](https://vanillajsprojectsrupakdey.netlify.app/login-&-registration-form/index.html)
